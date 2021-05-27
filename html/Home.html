@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Moody Melodies</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <style>
+
+    </style>
+    </head>
+    
+    <body>
+        <script src="/script/homepage.js"></script>
+
+<!-- https://www.w3schools.com/howto/howto_css_topnav_centered.asp --> 
+        <div class="topBar">
+            <div class="background">Background Source: PNG Tree</div>
+
+            <div class="test">
+                <div class="navItem">
+                    <a href="subscribe.html" class="active">Subscribe</a>
+                </div>
+                <div class="navItem">
+                    <a href="recommendation.html" class="active">Recommendations</a>
+                </div>
+                <div class="navItem">
+                    <a href="PlaylistGenerator.html" class="active">Custom Playlist</a>
+                </div>
+                <div class="active-page">
+                    <a href="Home.html" class="active" >Home</a>
+                </div>
+            </div>
+        </div>
+
+            <div class="banner">
+                <div class="banner2">
+                    <em>Moody Melodies</em>
+                </div>
+            </div>
+
+
+        <!-- For the carousel
+            Referenced https://www.google.com/url?sa=i&url=https%3A%2F%2Fbestmusic.fandom.com%2Fwiki%2FLights&psig=AOvVaw3wG_qGwA8UrA9C2lO3iQQ4&ust=1620777665047000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCds7ypwPACFQAAAAAdAAAAABAD 
+        https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theedgesusu.co.uk%2Frecords%2F2019%2F04%2F26%2Fartist-in-focus-catfish-and-the-bottlemen%2F&psig=AOvVaw3NrfgpSYh2pQMqpiQ2w2vs&ust=1620778011607000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMigx-CqwPACFQAAAAAdAAAAABAD
+    https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheupsidenews.com%2F2017%2F01%2F27%2Finterview-neck-deep-talk-new-album-mark-hoppus-and-returning-to-australia%2F&psig=AOvVaw3HbHUqOynSuSCWPpcydqgq&ust=1620799148671000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCODRwb_5wPACFQAAAAAdAAAAABAD
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fdiymag.com%2F2015%2F02%2F02%2Fbreaking-up-is-hard-to-do-the-big-perspective-on-blink-182s-bust-up&psig=AOvVaw1wZQ3EGTn1VHaWv7z4kvnZ&ust=1620799361675000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCMmqf6wPACFQAAAAAdAAAAABAD-->
+    <section class= "Carousel">
+        <div class="wrapper">
+        <div class="slideshow">
+
+            <!-- Images with caption-->
+            <div class="mySlides fade">
+                <img src= "/images/Lights.jpeg" style="width:100%">
+                <div class="text">Lights</div>
+                <div class="source">Source: bestmusic.fandom.com</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/images/Catfish.jpeg" style="width:100%">
+                <div class="text">Catfish and the Bottlemen</div>
+                <div class="source">Source: Jill Furmanovsky April 2016</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/images/neckdeep.jpeg" style="width:100%">
+                <div class="text">Neck Deep</div>
+                <div class="source">Source: Ashley Osborn</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/images/blink.jpeg" style="width:100%">
+                <div class="text">Blink 182</div>
+                <div class="source"> Source: DIYMag.com</div>
+
+            </div>
+        
+
+        <!-- Creating next and previous buttons -->
+        <a class="previous" onclick="incSlides(-1)">&#10094;</a>
+        <a class="next" onclick="incSlides(1)">&#10095;</a>
+        </div>
+        <br />
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+          </div>
+
+          <div class="break" style="height:10px; width: 100%;"></div>
+          <div class="content">
+              <div class="content2">
+              <h2><em>Welcome to Moody Melodies!</em></h2>
+              <p> Have you ever wanted to find music that fits perfectly with the mood you're in?</p>
+              <p> Moody Melodies does exactly that. Plus, we make it super easy too.</p>
+              <p><strong> Here's how to get started:</strong></p>
+              <ul>
+                  <li> If you want a playlist created based on your mood, click on "Custom Playlist" </li>
+                  <br />
+                  <li> If you want music recommendations click on "Recommendations" </li>
+                  <br />
+                  <li> If you want to subscribe to our newsletter, click on "Subscribe" </li>
+              </ul>
+
+            </div>
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="float-right"></div>
+    <div class="float-left"></div>
+
+    </div>
+    </section>
+
+        <div class="bottomBar" id='footer'>
+            <div class=links >
+                Check us out on social media!
+                <a href='https://www.facebook.com/' target="_blank">Facebook</a>
+                ||
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+                ||
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </body>
+</html>

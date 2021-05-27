@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Playlist Generator</title>
+    <link rel="stylesheet" href="/css/style2.css" type="text/css">
+    </head>
+    <body>
+        <script src="/script/recommendation.js"></script>
+
+
+        <div class="banner">
+            <div class="banner2">
+                <em>Moody Recommendations</em>
+                </div>
+        </div>
+
+        
+<!-- https://www.w3schools.com/howto/howto_css_topnav_centered.asp -->
+<div class="topBar">
+    <div class="background">Background Source: PNG Tree</div>
+
+    <div class="test">
+        <div class="navItem">
+            <a href="subscribe.html" class="active">Subscribe</a>
+        </div>
+        <div class="active-page">
+            <a href="recommendation.html" class="active">Recommendations</a>
+        </div>
+        <div class="navItem">
+            <a href="PlaylistGenerator.html" class="active">Custom Playlist</a>
+        </div>
+        <div class="navItem">
+            <a href="Home.html" class="active">Home</a>
+        </div>
+    </div>
+</div>
+    </div>
+    
+        <div class="empty">
+
+        <div class="genreForm">
+            <div class='form'>
+                <form id="genre" style="max-width: 100%">
+                Having a hard time finding new artists to listen to in your favorite genre?
+            <br />
+                Fill out this simple form and we will provide some recommendations!
+                <br />
+                <br />
+                <fieldset>
+                    Choose a genre: 
+                        <br />
+                        <div class="buttons" style="max-width: 400px; text-align: left">
+                        <label>
+                           <input type="radio" name="genre" value ="Alternative" style="max-width: 55px; margin-left: 200px;" /> Alternative</label required>
+                        <label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="genre" value ="Country" style="max-width: 55px; margin-left: 200px;" />Country </label required>
+                        <label>
+                        <br />
+                          
+                        <label>
+                            <input type="radio" name="genre" value ="Electronic" style="max-width: 55px; margin-left: 200px;" />Electronic</label required>
+                        <label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="genre" value ="Folk" style="max-width: 55px; margin-left: 200px;" />Folk</label required>
+                        <label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="genre" value ="Hip Hop" style="max-width: 55px; margin-left: 200px;" />Hip Hop</label required>
+                        <label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="genre" value ="Pop" style="max-width: 55px; margin-left: 200px;" />Pop</label required>
+                        <label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="genre" value ="Punk" style="max-width: 55px; margin-left: 200px;" />Punk</label required>
+                        <label>
+                        <br />
+
+                        <label>
+                            <input type="radio" name="genre" value ="Rock" style="max-width: 55px; margin-left: 200px;" />Rock</label required>
+                        <label>
+                        <br />
+                        <br />
+                        </div>
+
+                    <button type="button" onclick="getRec()"> Submit </button>
+                </fieldset>
+            </form>
+        </div>
+            <br />
+
+        </div>
+
+
+            <img src= "/images/verticalBand.jpeg" style="height: 650px; width:433px; float:right; margin-right:102px">
+            <div class="source1">Source:  Sebastian Schlondorf via Unsplash</div>
+
+        <div class='blank' style='height: 440px;'></div>
+        <div class="response" id="responses" style="height:340px; width:585px; font-size: 30px;">
+                <h3 id= 'header' style="margin-top: 0;"></h3>
+            <div id='artists' style="font-size: 20px; list-style-type: none; padding: 0px; text-align: center;"></div>
+        </div>
+
+
+        </div>
+
+        <div class="bottomBar">
+            <div class=links>
+                Check us out on social media!
+                <a href='https://www.facebook.com/' target="_blank">Facebook</a>
+                ||
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+                ||
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </body>
+</html>

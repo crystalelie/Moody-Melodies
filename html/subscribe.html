@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Subscribe</title>
+    <link rel="stylesheet" href="/css/style2.css" type="text/css">
+    </head>
+    <body>
+        <script src="/script/subscription.js">
+
+
+
+        </script>
+
+        <div class="banner">
+            <div class="banner2">
+            <em>Subscribe to Moody Melodies</em>
+            </div>
+        </div>
+
+<!-- https://www.w3schools.com/howto/howto_css_topnav_centered.asp -->
+<div class="topBar">
+    <div class="background">Background Source: PNG Tree</div>
+
+    <div class="test">
+        <div class="active-page">
+            <a href="subscribe.html" class="active">Subscribe</a>
+        </div>
+        <div class="navItem">
+            <a href="recommendation.html" class="active">Recommendations</a>
+        </div>
+        <div class="navItem">
+            <a href="PlaylistGenerator.html" class="active">Custom Playlist</a>
+        </div>
+        <div class="navItem">
+            <a href="Home.html" class="active">Home</a>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <div class="empty">
+
+        <div class="subscribe">
+            <img src= "/images/bandPhoto.jpeg" style="width:100%">
+            <div class="source">Source:  Sebastian Schlondorf via Unsplash</div>
+        </div>
+        <br />
+        <br />
+
+        <div class="subscribeForm">   
+            <div id="hidden" style="height:205px; font-size:17pt; width: 600px; display:none">
+                <h3>Thank you for subscribing to Moody Melodies!</h3>
+                <p> For your records, this is the information you provided.</p>
+                Name: <span id=data></span><br />
+                <br />
+                Email:  <span id=data1></span><br />
+                <br />
+                Phone:  <span id=data2></span><br />
+            </div>      
+
+            <form id="subscription" style="height:205px; font-size:17pt; width: 600px">
+                Subcribe to stay up to date on news related to Moody Melodies!
+                <br/>
+
+                <fieldset>
+                    <br />
+                    
+                    <lable> First Name:
+                        <br />
+                        <input type="text" name="firstName" id="name1" value=""  required>
+                    </label>
+                    <br />
+                    <br />
+
+                    <lable> Last Name:
+                        <br />
+                        <input type="text" name="lastName" id="name2" value="">
+                    </label>
+                        <br />
+                        <br />
+
+                    <lable> Email Address
+                        <br />
+                        <input type="text" name="email" id="email" value="">
+                    </label>
+                        <br />
+                        <br />
+
+                    <lable> Would you like to receive text updates?
+                        <br />
+                        <br />
+                            <input type="radio" name="input" value ="yes" />Yes</label required>
+                            <input type="radio" name="input" value ="no" />No</label>
+                        <br />
+                        <br />
+                    </label>
+                    
+                    <label> Phone Number:
+                        <input type="phone" name="phone" id="phone" value="">
+                    </label>
+
+                    <br />
+                    <input id="subscribeSubmit" type="Submit" value="Submit"/>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="bottomBar">
+        <div class=links>
+            Check us out on social media!
+            <a href='https://www.facebook.com/' target="_blank">Facebook</a>
+            ||
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            ||
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        </div>
+    </div>
+
+    </body>
+</html>

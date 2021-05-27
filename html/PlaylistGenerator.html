@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Playlist Generator</title>
+    <link rel="stylesheet" href="/css/style2.css" type="text/css">
+    </head>
+    <body>
+        <script src="/script/playlist.js"></script>
+
+        <div class="banner">
+            <div class="banner2">
+                <em>Moody Playlist Generator</em>
+                </div>
+        </div>
+    
+            
+<!-- https://www.w3schools.com/howto/howto_css_topnav_centered.asp -->
+<div class="topBar">
+    <div class="background">Background Source: PNG Tree</div>
+
+    <div class="test">
+        <div class="navItem">
+            <a href="subscribe.html" class="active">Subscribe</a>
+        </div>
+        <div class="navItem">
+            <a href="recommendation.html" class="active">Recommendations</a>
+        </div>
+        <div class="active-page">
+            <a href="PlaylistGenerator.html" class="active">Custom Playlist</a>
+        </div>
+        <div class="navItem">
+            <a href="Home.html" class="active">Home</a>
+        </div>
+    </div>
+</div>
+    </div>
+    
+        <div class="empty">
+            <br />
+            <br />
+            <br />
+            <br />
+
+        <div class="playlistForm" style="height:440px; font-size:14pt; width: 600px">
+            <form id="playlist">
+                Want us to put together a playlist that's perfect for your mood?
+            <br />
+                Fill out this simple form and we will do the rest!
+                <br />
+                <br />
+
+                <fieldset>
+                    <lable> What is your current mood?
+                        <br />
+                        <br />
+                        <div class="buttons" style="max-width: 400px; text-align: left">
+                            <label>
+                               <input type="radio" name="songs" value ="Happy" style="max-width: 55px; margin-left: 200px;" required/> Happy <label>
+                            <br />
+                            <br />
+
+                            <label>
+                                <input type="radio" name="songs" value ="Chill" style="max-width: 55px; margin-left: 200px;" /> Chill <label>
+                             <br />
+                             <br />
+
+                             <label>
+                                <input type="radio" name="songs" value ="Sad" style="max-width: 55px; margin-left: 200px;" /> Sad <label>
+                             <br />
+                             <br />
+
+                             <label>
+                                <input type="radio" name="songs" value ="Angry" style="max-width: 55px; margin-left: 200px;" /> Angry <label>
+                         <br />
+                        <br />
+                        <br />
+                    </label>
+                </div>
+                    <button type="button" onclick="onDisplay()"> Submit </button>
+                </fieldset>
+            </form>
+            <div id='download' style="display:none">
+                <br />
+                Love your playlist and want a copy of the list of songs?
+                <a href="./images/MoodyMelodiesPlaylistDetails.pdf" download="MoodyMelodies"> <button>Download</button></a>
+            </div>
+        </div>
+
+        <div class='playlist1' style="height:440px; font-size:14pt; width: 600px">
+                <form id="playlist1">
+                    <br />
+                    </form>
+             </div>
+        </div>
+
+
+    </div>
+
+        <div class="bottomBar">
+            <div class=links>
+                Check us out on social media!
+                <a href='https://www.facebook.com/' target="_blank">Facebook</a>
+                ||
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+                ||
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>
+        </div>
+        
+    </body>
+</html>
