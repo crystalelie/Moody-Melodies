@@ -1,0 +1,246 @@
+/* Stylesheet for recommendation.html, thankyou.html, playlistGenerator.html */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.topBar {
+    overflow: hidden;
+    color: white!important;
+    background-color: #4D4D4D!important;
+    border: 1px solid black!important;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:9;
+}
+
+.banner {
+    height: 90px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    margin-top: 34px;
+    font-size: 70px;
+    background-color: #4D4D4D;
+}
+
+.navItem {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    border-left: 1px solid black!important;
+    padding: 8px 16px;
+    float: right;
+}
+
+
+.active {
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    height: 10px;
+}
+
+.playlist1 {
+    height:440px;
+    width:600px;
+    position: relative;
+}
+
+.empty {
+    float: center;
+    background-image: url("./Plant2.jpg");
+    height: 870px;
+    width: 100%;
+    text-align: center;
+    display:block;
+}
+.playlistForm{
+    color:white;
+    float: left;
+    text-align: center;
+    overflow: scroll;
+    background-color: #4D4D4D!important;
+    border: 8px solid rgb(202, 200, 204)!important;
+    position:relative;
+    padding:10px;
+    margin-left: 60px;
+}
+
+.playlist1{
+    color:white;
+    float: left;
+    text-align: center;
+    height: 600px;
+    width:440px;
+    overflow: scroll;
+    background-color: #4D4D4D!important;
+    border: 8px solid rgb(202, 200, 204)!important;
+    position:relative;
+    padding:10px;
+    margin-left: 60px;
+}
+
+
+.download {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px 10px;
+    border: 4px solid rgb(202, 200, 204)!important;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.source {
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 6px 6px;
+    position: absolute;
+    bottom: 8px;
+    text-align: 50px;
+    margin-left: 8px;
+    background-color: rgb(202, 200, 204);
+}
+
+
+
+ /* FORMS/DIV FOR SUBSCRIPTION*/ 
+    .subscribe {
+        float:center;
+        max-width: 900px;
+        position: relative;
+        margin: auto;
+    }
+
+    .subscribeForm {
+        color:white;
+        text-align: center;
+        float: center;
+        height:300px;
+        width:600px;
+        overflow: scroll;
+        background-color: #4D4D4D!important;
+        border: 8px solid rgb(202, 200, 204)!important;
+        position:relative;
+        margin:auto;
+        padding:10px;
+    }
+
+    .response {
+        color:white;
+        text-align: center;
+        float: center;
+        height:300px;
+        width:600px;
+        overflow: scroll;
+        background-color: #4D4D4D!important;
+        border: 8px solid rgb(202, 200, 204)!important;
+        position:relative;
+        margin:auto;
+        padding:10px;
+    }
+
+    input {
+        width: 100%;
+        padding: 7px 10px;
+        margin: 9px 0;
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+.empty2 {
+    height:400px;
+    background-image: url("./Plant.jpg");
+}
+
+
+.bottomBar {
+    overflow: hidden;
+    background-color: #4D4D4D!important;
+    height: 40px;
+    position:fixed;
+    padding: 10px 10px 0px 10px;
+    bottom:0;
+    width:100%;
+}
+
+
+.links {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    height: 30px;
+    max-width: 1400px;
+    background-color: rgb(202, 200, 204);
+    position: relative;
+    margin: auto;
+}
+
+.active-page {
+    background-color: #717171;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    border-left: 1px solid black!important;
+    padding: 8px 16px;
+    float: right;
+}
+
+.genreForm{
+    width:585px;
+    height:385px;
+    color:white;
+    float: left;
+    background-color: #4D4D4D!important;
+    border: 8px solid rgb(202, 200, 204)!important;
+    position:absolute;
+    padding:10px;
+    margin-left: 70px;
+}
+
+
+.source1 {
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 6px 6px;
+    position: absolute;
+    bottom: -20px;
+    text-align: 50px;
+    margin-left: 910px;
+    background-color: rgb(202, 200, 204);
+}
+
+.image { 
+    height:650px;
+    width:434px;
+    margin-left: 1000px;
+}
+
+.response {
+   position:relative;
+   margin-left: 70px;
+   margin-bottom:-200px
+}
+
+input[type="radio"] {
+    vertical-align: left;
+    padding: 10px;
+  }
+
+
+  .background {
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 10px;
+    }

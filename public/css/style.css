@@ -1,0 +1,220 @@
+/* Stylesheet for home.html */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.topBar {
+    overflow: hidden;
+    color: white!important;
+    background-color: #4D4D4D!important;
+    border: 1px solid black!important;
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index:9;
+}
+
+.navItem {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    border-left: 1px solid black!important;
+    padding: 8px 16px;
+    float: right;
+}
+
+
+.test {
+    /*margin-left: 900px; */
+    height: 10px;
+}
+
+.banner {
+    height: 90px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 70px;
+    background-color: #4D4D4D;
+}
+
+.wrapper {
+    float: center;
+    background-image: url("./Plant2.jpg");
+    height: 900px;
+    width: 100%;
+    margin-top:0px;
+    text-align: center;
+    display:block;
+}
+
+
+
+/* Slideshow */
+    .slideshow{
+        float:center;
+        max-width: 900px;
+        position: relative;
+        margin: auto;
+        
+    }
+
+    /* The default to hide the images */
+    .mySlides {
+        display:none;
+    }
+
+    /* Next and previous buttons */
+    .previous, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        transition: .6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Positioning the next and previous buttons to the sides of the images */
+    .next {
+        right:0;
+        border-radius: 10px 0 0 10px;
+    }
+    .previous {
+        left:0;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .next:hover, .previous:hover{
+        background-color: rgba(0,0,0,0.8);
+      }
+
+
+    /* Captions for the photos */
+    .text {
+        color: black;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        padding: 10px 10px;
+        position: absolute;
+        bottom: 30px;
+        text-align:50px;
+        margin-left: 8px;
+        background-color: rgb(202, 200, 204);
+    }
+
+    .source {
+        color: black;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: bold;
+        padding: 6px 6px;
+        position: absolute;
+        bottom: 8px;
+        text-align: 50px;
+        margin-left: 8px;
+        background-color: rgb(202, 200, 204);
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color:black;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+     .current, .dot:hover {
+        background-color: #717171;
+    }
+
+
+.active {
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    height: 10px;
+}
+
+
+
+.content {
+    background-color: #4D4D4D;
+    height: 320px;
+    float:center;
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    border: 8px solid rgb(202, 200, 204)!important;
+
+}
+
+.content2 {
+    color:white;
+    margin-top:10px;
+    margin-left:10px;
+    text-align: center;
+    height:284px;
+    width:765px;
+    border: 8px solid rgb(202, 200, 204)!important;
+
+}
+
+.bottomBar {
+    overflow: hidden;
+    background-color: #4D4D4D!important;
+    height: 40px;
+    position:fixed;
+    padding: 10px 10px 0px 10px;
+    bottom:0;
+    width:100%;
+}
+
+.links {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    height: 30px;
+    max-width: 1400px;
+    background-color: rgb(202, 200, 204);
+    position: relative;
+    margin: auto;
+}
+
+li {
+    text-align: left;
+}
+
+.active-page {
+    background-color: #717171;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    border-left: 1px solid black!important;
+    padding: 8px 16px;
+    float: right;
+}
+
+.background {
+color: white;
+font-size: 12px;
+font-style: italic;
+position: absolute;
+margin-left: 8px;
+margin-top: 10px;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+}
